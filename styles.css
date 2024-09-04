@@ -1,0 +1,87 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ffffff;
+}
+
+.flag {
+    position: relative;
+    width: 400px; /* Flag width */
+    height: 300px; /* Flag height */
+    border: 3px solid #000; /* Optional border for visualization */
+}
+
+.white {
+    position: absolute;
+    top: 100px;
+    background-color: #ffffff; /* white stripe */
+    width: 400px; /* Flag width */
+    height: 50px; /* Flag height */
+
+}
+
+.blue {
+    position: absolute;
+    top: 100px;
+    background-color: #0b4ea2; /* Blue stripe */
+    width: 400px; /* Flag width */
+    height: 100px; /* Flag height */
+
+}
+
+.red {
+    position: absolute;
+    top: 200px;
+    background-color: #ee1c25; /* Red stripe */
+    width: 400px; /* Flag width */
+    height: 100px; /* Flag height */
+
+
+}
+
+
+.shield1 {
+    background-color: #ee1c25;
+
+    top: 75px;
+    left: 50px;
+    width: 130px;
+    height: 150px;
+    display: block;
+    position: absolute;
+    clip-path: path('M 10 5 L120 5 Q122,55 120,75 Q110,138 65,145 Q20,135 10,75 Q8,50 10,5 Z');
+}
+
+.shield {
+    background-color: white;
+    top: 75px;
+    left: 50px;
+    width: 130px;
+    height: 150px;
+    display: block;
+    position: absolute;
+    clip-path: path('M 5 0 L125 0 Q127,55 125,75 Q115,140 65,150 Q15,140 5,75 Q3,50 5,0 Z');
+}
+.mount {
+    background-color: #0b4ea2;
+    top: 150px;
+    left: 60px;
+    width: 110px;
+    height: 80px;
+    display: block;
+    position: absolute;
+    clip-path: path('M 11 35 Q25,10 40,30 Q55,0 70,30 Q85,10 100,35 Q86,65  55,70 Q25,63 11,35Z');
+}
+.cross {
+    background-color: white;
+    top: 80px;
+    left: 60px;
+    width: 110px;
+    height: 87px;
+    display: block;
+    position: absolute;
+    clip-path: path('M 50 86.5 Q55,84 60,86.5 L60,70 Q75,68 90,72.5 Q89,65 90,55 Q85,58 60,60 L60,40 Q85,40 85,42.5 Q84,35 85,27.5 Q85,30 60,31 L62.5,7.5 Q57.5,9 47.5,7.5 L50,31  Q45,32 25,27.5 Q26,35 25,42.5 Q35,38.5 50,40 L50,60 Q30,60 20,55 Q21,62.5 20,72.5 Q30,68 50,70 L50,86.5 Z');
+}
